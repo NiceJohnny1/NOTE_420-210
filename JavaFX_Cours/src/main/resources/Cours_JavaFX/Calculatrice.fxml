@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Calculatrice.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursjavafx.coursjavafx.CalculatriceController">
+   <children>
+      <Button layoutX="90.0" layoutY="139.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="7" />
+      <Button layoutX="90.0" layoutY="188.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="4" />
+      <Button layoutX="90.0" layoutY="235.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="1" />
+      <Button layoutX="186.0" layoutY="139.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="8" />
+      <Button layoutX="186.0" layoutY="188.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="5" />
+      <Button layoutX="186.0" layoutY="236.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="2" />
+      <Button layoutX="284.0" layoutY="139.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="9" />
+      <Button layoutX="284.0" layoutY="188.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="6" />
+      <Button layoutX="284.0" layoutY="235.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="3" />
+      <Button layoutX="406.0" layoutY="139.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="+" />
+      <Button layoutX="406.0" layoutY="188.0" minWidth="50.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="50.0" text="=" />
+      <Label id="affichage" fx:id="affichage" alignment="CENTER_RIGHT" layoutX="90.0" layoutY="79.0" prefHeight="38.0" prefWidth="242.0" text="0">
+         <padding>
+            <Insets right="10.0" />
+         </padding>
+      </Label>
+      <Button layoutX="185.0" layoutY="284.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="0" />
+   </children>
+</AnchorPane>
