@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="387.0" prefWidth="559.0" stylesheets="@Trivia.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.TriviaController">
+   <children>
+      <Button layoutX="108.0" layoutY="196.0" mnemonicParsing="false" onAction="#onClickButtonChoice" prefHeight="89.0" prefWidth="155.0" text="Button" />
+      <Button layoutX="331.0" layoutY="196.0" mnemonicParsing="false" onAction="#onClickButtonChoice" prefHeight="89.0" prefWidth="155.0" text="Button" />
+      <Button layoutX="108.0" layoutY="266.0" mnemonicParsing="false" onAction="#onClickButtonChoice" prefHeight="107.0" prefWidth="153.0" text="Button" />
+      <Button layoutX="331.0" layoutY="266.0" mnemonicParsing="false" onAction="#onClickButtonChoice" prefHeight="49.0" prefWidth="153.0" text="Button" />
+      <Label fx:id="question" layoutX="164.0" layoutY="86.0" prefHeight="75.0" prefWidth="232.0" styleClass="question" text="Label" textAlignment="CENTER" />
+      <Label prefHeight="75.0" prefWidth="559.0" styleClass="title" stylesheets="@Trivia.css" text="Questionnaire" />
+   </children>
+</AnchorPane>

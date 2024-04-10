@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Calculatrice.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursjavafx.coursjavafx.CalculatriceController">
+<AnchorPane id="calculatrice" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="Calculatrice.css" stylesheets="@Calculatrice.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.CalculatriceController">
    <children>
       <Button layoutX="90.0" layoutY="139.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="7" />
       <Button layoutX="90.0" layoutY="188.0" minWidth="50.0" mnemonicParsing="false" onAction="#onClickAddValue" text="4" />
